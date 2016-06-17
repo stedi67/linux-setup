@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ssh "devbot@$2-demo-$1.office.ableton.com"

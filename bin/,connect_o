@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ssh -L 5000:localhost:5432 -t devbot@ocean.office.ableton.com screen -R std-demo

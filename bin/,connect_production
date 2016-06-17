@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ssh -t devbot@$1.ableton.net screen -R std-demo

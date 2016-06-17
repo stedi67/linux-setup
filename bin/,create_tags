@@ -1,0 +1,14 @@
+#!/bin/sh
+TARGETS="."
+if [ -e /usr/bin/ctags ]; then
+    echo "creating ctags"
+    2>/dev/null 1>&2 /usr/bin/ctags -R $TARGETS
+else
+    echo "you need ctags installed"
+fi
+if [ -e /usr/local/bin/pycscope ]; then
+    echo "creating cscope db"
+    pycscope -R $TARGETS
+else
+    echo "you need cscope and pycscope installed in order to use cscope with this project"
+fi
