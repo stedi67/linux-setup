@@ -21,4 +21,8 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
+if [ -d "$HOME/projects/std/linux-setup/bin" ] ; then
+    PATH="$HOME/projects/std/linux-setup/bin:$PATH"
+fi
+
 . /usr/local/bin/virtualenvwrapper.sh

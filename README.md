@@ -1,5 +1,8 @@
 Some files and scripts to share between the different linux environments.
 
+### Environment
+`cp ~/projects/std/linux-setup/.profile ~/.profile`
+
 ### Samba shares
 create `~/.smbcredentials` (mode 600) with
 
@@ -19,3 +22,6 @@ edit `/etc/fstab` and add
     //sun/quickshare /media/sun/quickshare cifs uid=std,credentials=/home/std/.smbcredentials,iocharset=utf8,sec=ntlm	0	0
 
 run `sudo mount -a` to test
+
+### Vim
+install `https://github.com/stedi67/vim-config`
