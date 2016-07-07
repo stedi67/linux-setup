@@ -29,3 +29,8 @@ install `https://github.com/stedi67/vim-config`
 ### pip
     mkdir .config/pip
     cp ~/projects/std/linux-setup/.config/pip/pip.conf ~/config/pip/
+
+### other
+    sudo apt install exuberant-ctags
+
+- install `pycscope` from `https://pypi.python.org/pypi/pycscope/`
