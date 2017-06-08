@@ -29,4 +29,12 @@ if [ -d "$HOME/projects/std/linux-setup/bin" ] ; then
     PATH="$HOME/projects/std/linux-setup/bin:$PATH"
 fi
 
+if [ -d "$HOME/tools/nim/bin" ] ; then
+    PATH="$HOME/tools/nim/bin:$PATH"
+fi
+
+if [ -d "$HOME/.nimble/bin" ] ; then
+    PATH="$HOME/.nimble/bin:$PATH"
+fi
+
 . /usr/local/bin/virtualenvwrapper.sh
