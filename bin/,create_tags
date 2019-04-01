@@ -1,5 +1,5 @@
 #!/bin/sh
-TARGETS="."
+TARGETS=". ../libs/abl.shop"
 if [ -e /usr/bin/ctags ]; then
     echo "creating ctags"
     2>/dev/null 1>&2 /usr/bin/ctags -R $TARGETS
