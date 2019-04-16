@@ -37,4 +37,6 @@ if [ -d "$HOME/.nimble/bin" ] ; then
     PATH="$HOME/.nimble/bin:$PATH"
 fi
 
-. /usr/local/bin/virtualenvwrapper.sh
+if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
+  . /usr/local/bin/virtualenvwrapper.sh
+fi
