@@ -1,0 +1,2 @@
+\timing
+\set PROMPT1 '%n@%[%033[1;33;40m%]%M%[%033[0m%] %`date +%H:%M:%S` %x%# '

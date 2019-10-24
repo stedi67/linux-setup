@@ -40,3 +40,4 @@ fi
 if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
   . /usr/local/bin/virtualenvwrapper.sh
 fi
+if [ -e /home/std/.nix-profile/etc/profile.d/nix.sh ]; then . /home/std/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
