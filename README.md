@@ -2,6 +2,7 @@ Some files and scripts to share between the different linux environments.
 
 ### Environment
     ln -s ~/projects/std/linux-setup/.profile ~/.profile
+    ln -s ~/projects/std/linux-setup/.psqlrc ~/.psqlrc
 
 ### Vim
 install `https://github.com/stedi67/vim-config`
