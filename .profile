@@ -28,16 +28,3 @@ fi
 if [ -d "$HOME/projects/std/linux-setup/bin" ] ; then
     PATH="$HOME/projects/std/linux-setup/bin:$PATH"
 fi
-
-if [ -d "$HOME/tools/nim/bin" ] ; then
-    PATH="$HOME/tools/nim/bin:$PATH"
-fi
-
-if [ -d "$HOME/.nimble/bin" ] ; then
-    PATH="$HOME/.nimble/bin:$PATH"
-fi
-
-if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
-  . /usr/local/bin/virtualenvwrapper.sh
-fi
-if [ -e /home/std/.nix-profile/etc/profile.d/nix.sh ]; then . /home/std/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
