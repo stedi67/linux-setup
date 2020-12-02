@@ -28,3 +28,4 @@ fi
 if [ -d "$HOME/projects/std/linux-setup/bin" ] ; then
     PATH="$HOME/projects/std/linux-setup/bin:$PATH"
 fi
+if [ -e /home/stephan/.nix-profile/etc/profile.d/nix.sh ]; then . /home/stephan/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
