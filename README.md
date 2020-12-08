@@ -1,18 +1,19 @@
 Some files and scripts to share between the different linux environments.
 
+### Installation
+    cd
+    mkdir -p repos; cd repos; git clone <this-repo>
+    
+
 ### Environment
-    ln -s ~/projects/std/linux-setup/.profile ~/.profile
-    ln -s ~/projects/std/linux-setup/.psqlrc ~/.psqlrc
+    ln -s ~/repos/linux-setup/.bash_aliases ~/.bash_aliases
+    ln -s ~/repos/linux-setup/.psqlrc ~/.psqlrc
 
 ### Vim
 install `https://github.com/stedi67/vim-config`
 
 ### tmux
-    ln -s ~/projects/std/linux-setup/.tmux.conf ~/.tmux.conf
-
-### pip
-    mkdir .config/pip
-    ln -s ~/projects/std/linux-setup/.config/pip/pip.conf ~/config/pip/
+    ln -s ~/repos/linux-setup/.tmux.conf ~/.tmux.conf
 
 ### other
     sudo apt install exuberant-ctags cscope
