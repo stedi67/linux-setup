@@ -13,3 +13,4 @@ if [ -d "$HOME/.nimble/bin" ] ; then
 fi
 
 function activate { . "$HOME/.virtualenvs/$1/bin/activate"; }
+function workon { . "$HOME/.virtualenvs/$1/bin/activate"; }
